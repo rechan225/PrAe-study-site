@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ae 0基础傻瓜式教程</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <div class="logo"></div>
+        <div class="brand-title">
+          <b>Pr & Ae 新手学习站</b>
+          <span>Ae：先套模板，再学原理</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="index.html">主页</a>
+        <a href="pr.html">Pr 教程</a>
+        <a href="ae.html">Ae 教程</a>
+        <a href="templates.html">模板下载区</a>
+        <a href="resources.html">资源导航</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Ae 新手目标：只学 4 件事（就能出片）</h1>
+      <p>打开模板 → 改文字 → 换素材 → 导出。表达式/三维/粒子先别碰。</p>
+      <div class="chips">
+        <div class="chip">✅ 你不需要懂“特效原理”</div>
+        <div class="chip">✅ 先做出片头/字幕就赢了</div>
+        <div class="chip">✅ Ae 就当“高级字幕机”</div>
+      </div>
+      <div class="btns">
+        <a class="btn primary" href="#template">直接看：套模板流程</a>
+        <a class="btn ok" href="templates.html">去模板区</a>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card col-7" id="template">
+        <div class="card-h">
+          <div>
+            <h2>Ae 套模板傻瓜流程（照着做）</h2>
+            <p>新手做字幕/片头最快路径。</p>
+          </div>
+          <span class="badge">成功标志：能导出一个小动画视频</span>
+        </div>
+        <div class="divider"></div>
+        <div class="card-b">
+          <ol class="clean">
+            <li><b>打开模板工程</b>（.aep）。<span class="small">成功：项目面板里有很多合成（Comp）</span></li>
+            <li><b>找到“EDIT TEXT / 控制层 / 主合成”</b>（通常叫 Main / Render / Final）。</li>
+            <li><b>改文字</b>：双击文字图层改内容。<span class="small">成功：预览里文字变了</span></li>
+            <li><b>替换素材</b>：右键素材 Replace Footage（替换素材）。</li>
+            <li><b>渲染导出</b>：优先用 Media Encoder 或渲染队列导出 H.264。<span class="small">成功：导出 MP4 可播放</span></li>
+          </ol>
+
+          <div class="note" style="margin-top:14px; border-left-color: rgba(251,191,36,.75); background: rgba(251,191,36,.07);">
+            <b>新手最重要：别乱动时间线结构。</b><br/>
+            只改“文字/素材/颜色控制项”，其余不懂就不碰。
+          </div>
+        </div>
+      </section>
+
+      <section class="card col-5">
+        <div class="card-h">
+          <div>
+            <h2>Ae 新手只需要懂的 3 个词</h2>
+            <p>懂这 3 个，套模板就不慌。</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="card-b">
+          <ul class="clean">
+            <li><b>Comp（合成）：</b>一个“场景/片段”的容器</li>
+            <li><b>Layer（图层）：</b>文字、视频、形状都是图层</li>
+            <li><b>Keyframe（关键帧）：</b>让东西动起来的“时间点”</li>
+          </ul>
+          <div class="btns">
+            <a class="btn warn" href="resources.html#official">官方 Ae 入门入口</a>
+            <a class="btn" href="resources.html#bilibili">B站搜索：Ae 套模板 新手</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card col-12">
+        <div class="card-h">
+          <div>
+            <h2>常见问题（Ae 新手）</h2>
+            <p>遇到报错别慌，大概率是缺字体/缺插件/路径问题。</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="card-b">
+          <ul class="clean">
+            <li><b>提示缺字体：</b>装同名字体或替换字体（尽量用常见字体）。</li>
+            <li><b>提示缺插件：</b>先换不依赖插件的模板；或确认模板说明写的插件。</li>
+            <li><b>预览很慢：</b>降低预览分辨率、关闭多余效果、开缓存。</li>
+            <li><b>导出没有声音：</b>Ae 本来不擅长音频，建议回 Pr 合成并导出。</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer">
+      <div>Ae 前期只要能“改模板导出”即可</div>
+      <div>更复杂的特效：等你做出 3 个作品再学</div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
